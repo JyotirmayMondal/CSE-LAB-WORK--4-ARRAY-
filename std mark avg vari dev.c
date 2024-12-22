@@ -27,8 +27,8 @@ int main()
     }
     g=d/(float)l;
     sd=sqrt(g);
-    printf("Variance are: %.2f\n",g);  // There is some problem in output , i will update it later
+    printf("Variance are: %.2f\n",g); 
     printf("Average: %.2f\n",avg);
-    printf("SD: %.2f\n",sd);      // There is some problem in output , i will update it later
+    printf("SD: %.2f\n",sd);    
     return 0;
 }
