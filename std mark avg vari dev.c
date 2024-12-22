@@ -1,4 +1,4 @@
-/*Write a C program which can input some students’ marks and display average, variance and
+/*Write a C program which can input some studentsâ€™ marks and display average, variance and
 standard deviation.*/
 
 #include <stdio.h>
@@ -25,7 +25,7 @@ int main()
         d=d+m;
 
     }
-    g=d/(float)n;
+    g=d/(float)l;
     sd=sqrt(g);
     printf("Variance are: %.2f\n",g);  // There is some problem in output , i will update it later
     printf("Average: %.2f\n",avg);
